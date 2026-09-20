@@ -1,0 +1,34 @@
+import { test } from '@playwright/test';
+import { ReactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page } from '../pages/react-admin-demo-go-to-customers-type-nova-in-the-keyword-filter-and-search-v-9156e3.page';
+
+test("Go to customers, select the checkbox of Acme Corp's row (only that row), and verify exactly one row is selected. Then un", async ({ page }) => {
+  const reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page = new ReactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page(page);
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.open();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.setup198();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.open3();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.setup198();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.clickButton();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.setup198();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.expectVisible18();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.expectVisible24();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.setup198();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.clickCustomers();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.setup198();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.expectVisible314();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.expectVisible414();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.expectVisible86();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.setup198();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.clickCheckbox();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.expectVisible616();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.expectVisible718();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.expectVisible59();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.setup198();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.expectVisible613();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.setup198();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.clickCheckbox2();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.expectVisible104();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.expectVisible114();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.setup198();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.step();
+  await reactAdminDemoGoToCustomersTypeNovaInTheKeywordFilterAndSearchV9156e3Page.setup198();
+});

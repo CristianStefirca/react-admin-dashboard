@@ -1,0 +1,34 @@
+import { test } from '@playwright/test';
+import { ReactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page } from '../pages/react-admin-demo-use-the-left-navigation-to-go-to-team-then-back-to-customers-635a65.page';
+
+test("Go to customers, click New Customer, leave the Name / Company empty, fill only the email \"novalid@example.com\" and click", async ({ page }) => {
+  const reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page = new ReactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page(page);
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.open();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup107();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.clickButton();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup107();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible15();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible23();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup107();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.clickCustomers();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup107();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible33();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible43();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible11();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup107();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.clickButton22();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible67();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible78();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible84();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup107();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.fillTextbox();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup107();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.clickButton3();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible94();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible105();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup107();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.clickButton4();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup107();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.createCustomer();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup107();
+});

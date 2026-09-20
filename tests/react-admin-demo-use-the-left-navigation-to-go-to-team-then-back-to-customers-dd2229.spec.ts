@@ -1,0 +1,28 @@
+import { test } from '@playwright/test';
+import { ReactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page } from '../pages/react-admin-demo-use-the-left-navigation-to-go-to-team-then-back-to-customers-635a65.page';
+
+test("Use the left navigation to go to Team, then back to Customers using the navigation (not the URL bar). Verify the Custome", async ({ page }) => {
+  const reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page = new ReactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page(page);
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.open();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.clickButton2();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible2();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.clickTeam2();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible6();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible7();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible8();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.clickCustomers();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible9();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible10();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible11();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible12();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible13();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup();
+});

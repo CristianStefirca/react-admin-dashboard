@@ -1,0 +1,32 @@
+import { test } from '@playwright/test';
+import { ReactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page } from '../pages/react-admin-demo-use-the-left-navigation-to-go-to-team-then-back-to-customers-635a65.page';
+
+test("Go to customers, select the checkbox of Acme Corp's row (only that row), and verify exactly one row is selected. Then un", async ({ page }) => {
+  const reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page = new ReactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page(page);
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.open();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup35();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.clickButton();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup35();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible15();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible23();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup35();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.clickCustomers();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup35();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible33();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible43();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible11();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup35();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.clickCheckbox3();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible66();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible77();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible143();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup35();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible93();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup35();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.clickCheckbox4();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible104();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.expectVisible114();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup35();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.step();
+  await reactAdminDemoUseTheLeftNavigationToGoToTeamThenBackToCustomers635a65Page.setup35();
+});
